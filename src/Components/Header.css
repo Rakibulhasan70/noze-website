@@ -1,0 +1,29 @@
+.header {
+    padding: 0 3.47%;
+    height: 65px;
+    margin-top: 10px;
+    color: #b9b0e4;
+}
+
+.route {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.button {
+    font-family: Raleway, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #654a9b;
+    border-radius: 5px;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin-top: 0px;
+    color: white;
+}
+
+.route:hover {
+    color: #654a9b;
+}
