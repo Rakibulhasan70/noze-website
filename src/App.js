@@ -2,10 +2,13 @@ import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Engineered from './Components/Engineered';
 import FAQs from './Components/FAQs';
+import Footer from './Components/Footer';
 import Header from './Components/Header';
 import NasaInspired from './Components/NasaInspired';
 import Overview from './Components/Overview';
+import Privacy from './Components/Privacy';
 import Specs from './Components/Specs';
+import Terms from './Components/Terms';
 
 function App() {
   return (
@@ -19,7 +22,10 @@ function App() {
         </Route>
         <Route path='/Specs' element={<Specs></Specs>} ></Route>
         <Route path='/FAQs' element={<FAQs></FAQs>} ></Route>
+        <Route path='/privacy' element={<Privacy></Privacy>} ></Route>
+        <Route path='/terms' element={<Terms></Terms>} ></Route>
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }

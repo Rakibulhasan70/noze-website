@@ -5,9 +5,9 @@ import logo from '../../src/assests/NOZE-logo.svg'
 
 const Header = () => {
     return (
-        <div>
-            <div className='header'>
-                <div className="navbar bg-base-100 ">
+        <div >
+            <div className='header '  >
+                <div style={{ backgroundColor: 'rgb(250, 248, 248)' }} className="navbar fixed" >
                     <div className="navbar-start lg:w-full">
                         <Link to='/home' className="btn btn-ghost normal-case text-xl"><img className='w-full' src={logo} alt="" /></Link>
                         <div className="navbar-center hidden lg:flex">
@@ -20,7 +20,7 @@ const Header = () => {
                     </div>
                     <div className="navbar-center hidden lg:flex justify-items-end">
                         <ul className="menu menu-horizontal p-0 text-xl " >
-                            <p className='route mt-4 mr-4'>Order for </p>
+                            <p className='route mt-4 mr-4'>Order for  $249</p>
                             <button className='button'>Pre Order</button>
                         </ul>
                     </div>

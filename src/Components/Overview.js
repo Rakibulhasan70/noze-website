@@ -8,6 +8,9 @@ import Conqure from './Conqure';
 import Break from './Break.js';
 import Vedios from './Vedios';
 import Wondering from './Wondering';
+import HomeFaqs from './HomeFaqs';
+import Stay from './Stay';
+import Footer from './Footer';
 
 const Overview = () => {
     return (
@@ -71,6 +74,8 @@ const Overview = () => {
             <Break></Break>
             <Vedios></Vedios>
             <Wondering></Wondering>
+            <HomeFaqs></HomeFaqs>
+            <Stay></Stay>
         </div>
     );
 };
