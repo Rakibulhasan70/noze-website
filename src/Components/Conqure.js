@@ -6,7 +6,11 @@ const Conqure = () => {
     return (
         <div className='container mx-auto grid grid-cols-1 lg:grid-cols-2'>
             <video autoplay src={vedio2} autoPlay controlsList='nodownload' loop muted="muted"></video>
-            <div className='px-12'>
+            <div className='px-12'
+                data-aos="fade-up"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+            >
                 <h1 className='conqurw-tittle'>Conquer the Virus</h1>
                 <p className='conqure-info'>Noze tracks the airborne markers (VOCs) associated with the Coronavirus family. Our AI uses that information to deliver a real-time risk index that will not only tell you if your space is prone to spreading the virus, but whether there's a chance the virus is actually in the air.</p>
             </div>

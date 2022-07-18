@@ -5,6 +5,7 @@ import FAQs from './Components/FAQs';
 import Footer from './Components/Footer';
 import Header from './Components/Header';
 import NasaInspired from './Components/NasaInspired';
+import Nested from './Components/Nested';
 import Overview from './Components/Overview';
 import Privacy from './Components/Privacy';
 import Specs from './Components/Specs';
@@ -24,6 +25,8 @@ function App() {
         <Route path='/FAQs' element={<FAQs></FAQs>} ></Route>
         <Route path='/privacy' element={<Privacy></Privacy>} ></Route>
         <Route path='/terms' element={<Terms></Terms>} ></Route>
+        <Route path='/nested' element={<Nested></Nested>} ></Route>
+
       </Routes>
       <Footer></Footer>
     </div>

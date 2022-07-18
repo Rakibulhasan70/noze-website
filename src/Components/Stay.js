@@ -2,7 +2,11 @@ import React from 'react';
 
 const Stay = () => {
     return (
-        <div className='container mx-auto my-16'>
+        <div
+            data-aos="fade-up"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            className='container mx-auto my-16'>
             <h2 className='text-center'>Stay connected with NOZE</h2>
             <p className='conqure-info text-center mt-10'>NOZE is an AI powered air quality monitor that
                 <br />

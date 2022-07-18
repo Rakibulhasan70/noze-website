@@ -3,7 +3,11 @@ import vedios from '../../src/assests/Noze-vedio.mp4'
 
 const Vedios = () => {
     return (
-        <div className='  my-16'>
+        <div className='  my-16'
+            data-aos="fade-up"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+        >
             <h1 className='text-6xl text-center font-semibold'>What's more important, form
                 <br />
                 or function?</h1>

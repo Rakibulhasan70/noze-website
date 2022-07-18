@@ -3,10 +3,12 @@ import wondaringImage from '../../src/assests/NOZE-Hero-6 .png'
 
 const Wondering = () => {
     return (
-        <div>
+        <div data-aos="fade-up"
+            data-aos-delay="50"
+            data-aos-duration="1000">
             <div className='container mx-auto grid grid-cols-1 lg:grid-cols-2 my-24'>
                 <div>
-                    <img style={{ borderRadius: '50%' }} className=' mt-16 h-4/5 w-5/6 px-8 ml-12  lg:w-3/4' src={wondaringImage} alt="" />
+                    <img style={{ borderRadius: '50%' }} className=' mt-16 h-full w-5/6 px-8 ml-12  lg:w-3/4' src={wondaringImage} alt="" />
                 </div>
                 <div className=' px-16'>
                     <h1 className=' text-6xl font-semibold my-16'>Wondering if
