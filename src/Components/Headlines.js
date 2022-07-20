@@ -4,7 +4,7 @@ import './Headlines.css'
 const Headlines = () => {
     return (
         <div className=''>
-            <div className='headlines'>
+            <div className='headlines text-6xl'>
                 <h2>NOZE is making
                     <br /> headlines.</h2>
             </div>

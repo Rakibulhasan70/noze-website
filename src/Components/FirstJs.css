@@ -1,7 +1,5 @@
 .title {
-    font-size: 58px;
     line-height: 68px;
-    font-weight: 500;
 }
 
 .first-info {
@@ -14,4 +12,9 @@
 .first-img {
     width: 80%;
     height: 96%;
+
+}
+
+@media only screen and (max-width:576px) {
+    .first-img {}
 }

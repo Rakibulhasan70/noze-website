@@ -13,12 +13,12 @@ const Header = () => {
                         <div className="navbar-center hidden lg:flex">
                             <ul className="menu menu-horizontal p-0 text-xl ">
                                 <Link className='route' to='/home'>Overview</Link>
-                                <Link className='route' to='/Specs'>Specs</Link>
-                                <Link className='route' to='/FAQs'>FAQs</Link>
+                                <Link className='route' to='/FAQs'>Specs</Link>
+                                <Link className='route' to='/Specs'>FAQs</Link>
                             </ul>
                         </div>
                     </div>
-                    <div className="navbar-center hidden lg:flex justify-items-end">
+                    <div className="navbar-center fixed bottom-0 lg:static lg:flex justify-items-end">
                         <ul className="menu menu-horizontal p-0 text-xl " >
                             <p className='route mt-4 mr-4'>Order for  $249</p>
                             <button className='button'>Pre Order</button>

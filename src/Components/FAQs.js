@@ -3,7 +3,7 @@ import faqs from '../../src/assests/NOZE-Hero-7.png'
 
 const FAQs = () => {
     return (
-        <div>
+        <div id='Specs'>
             <div className='my-5'>
                 <img style={{ width: '100%', height: 'auto', }} src={faqs} alt="" />
             </div>

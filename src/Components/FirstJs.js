@@ -6,7 +6,9 @@ const FirstJs = () => {
     return (
         <div className='container mx-auto grid grid-cols-1 lg:grid-cols-2 mt-24'>
             <div >
-                <h2 className='title'>There’s something
+                <h2 className='title text-7xl font-semibold'>There’s
+                    <br />
+                    something
                     <br />
                     new
                     in the air</h2>
